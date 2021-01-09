@@ -28,7 +28,7 @@ SECRET_KEY = 'n^e(fo5^cctlgwfan4^vx4n^^h)cqm*+yk&yf9s=&#^2q^e$6%'
 # DEBUG = True
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1','wildnotes-django.heroku.com']
 
 
 # Application definition
