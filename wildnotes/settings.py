@@ -25,10 +25,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'n^e(fo5^cctlgwfan4^vx4n^^h)cqm*+yk&yf9s=&#^2q^e$6%'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-# DEBUG = True
-DEBUG = False
+DEBUG = True
+# DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1','wildnotes-django.heroku.com']
+ALLOWED_HOSTS = ['127.0.0.1','wildnotes-django.herokuapp.com']
 
 
 # Application definition
